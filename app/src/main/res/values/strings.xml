@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chess Assistant</string>
+    <string name="accessibility_service_description">Chess Assistant reads the board on Chess.com and suggests the best move by drawing an arrow overlay on your screen. No personal data is collected or transmitted.</string>
+</resources>

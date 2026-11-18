@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#D01A1A2E"
+    android:padding="8dp"
+    android:minWidth="130dp"
+    android:elevation="8dp">
+
+    <!-- Best move label -->
+    <TextView
+        android:id="@+id/tv_move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waiting…"
+        android:textColor="#4CAF50"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp"/>
+
+    <!-- Button row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <!-- Clear arrow -->
+        <ImageButton
+            android:id="@+id/btn_clear"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:background="@android:color/transparent"
+            android:tint="#AAAAAA"
+            android:contentDescription="Clear arrow"
+            android:layout_marginEnd="4dp"/>
+
+        <!-- Close overlay -->
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/ic_delete"
+            android:background="@android:color/transparent"
+            android:tint="#FF5555"
+            android:contentDescription="Stop overlay"/>
+    </LinearLayout>
+
+</LinearLayout>
