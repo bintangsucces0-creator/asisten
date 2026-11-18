@@ -8,8 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.vanta.chessassist"
-        minSdk 24          // Android 7.0 — TYPE_APPLICATION_OVERLAY available from API 26,
-                           // fallback TYPE_PHONE used below that
+        minSdk 24
         targetSdk 34
         versionCode 1
         versionName "1.0.0"
